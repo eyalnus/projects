@@ -1,0 +1,15 @@
+   Input variables (based on physicochemical tests):
+   1 - fixed acidity: numeric, continuous - base level of acidity
+   2 - volatile acidity: numeric, continuous - varying level of acidity
+   3 - citric acid: numeric, continuous - measure of citric acid
+   4 - residual sugar: numeric, continuous - level of sugars 
+   5 - chlorides: numeric, continuous - levels of chloride
+   6 - free sulfur dioxide: numeric, continuous - free particles, sulfor dioxide
+   7 - total sulfur dioxide: numeric, continuous - total sulfor dioxide
+   8 - density: category - liquid density rating
+   9 - pH: numeric, continuous - pH level
+   10 - sulphates: numeric, continuous - sulphate count
+   11 - alcohol: numeric, continuous - percentage of alcohol
+   12 - kind: category - red or white wine
+   Output variable (based on sensory data): 
+   quality (score between 0 and 10)

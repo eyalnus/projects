@@ -1,0 +1,104 @@
+The purpose of this kernel is to predict the price category of a house that a realtor can charge, or a customer can invest to buy a house by considering multiple input factors. This dataset contains house sale prices for King County, which includes Seattle. It includes homes sold between May 2014 and May 2015. The dataset is pretty unbalanced with wide range of houses information that are built and renovated from the year 1990 to 2015. 
+
+
+id
+This is unique identification number given to each house in the dataset.
+
+
+date
+This is the date the house is added into the dataset and is in the format YYYY-MM-DD.
+
+
+price
+Numerical (Ordinal)
+Price of each house in US dollars.
+
+
+bedrooms
+Numerical
+Number of bed rooms available in each house and the dataset has houses having number of bedrooms ranging from 0 to 33.
+
+
+bathrooms
+Numerical
+Number of bed rooms available in each house and the dataset has houses having number of bedrooms ranging from 0 to 8.
+
+
+sqft_living
+Numerical
+Area size of living room in square feet.
+
+
+sqft_lot
+Numerical
+Total area of size of lot in square feet.
+
+
+floors
+Numerical
+Number of floors available in house.
+
+
+waterfront
+Boolean 0/1
+This is an indicator if the house is located on or beside a lake or beach. Possible values are 0 – indicating No and 1 – indicating Yes.
+
+
+view
+Numerical
+Rating of view of city or lake or beach from house and is rated from 0 to 5.
+
+
+condition
+Numerical
+Overall condition of house rated in the range 1 to 5.
+
+
+grade
+Numerical
+Overall grade of house ranging from 1 to 12.
+
+
+sqft_above
+Numerical
+The surface area of house in square feet above ground level.
+
+
+sqft_basement
+Numerical
+The surface area of house in square feet below ground level or basement.
+
+
+yr_built
+Numerical
+The year of house in which it is constructed.
+
+
+yr_renovated
+Numerical
+Year in which house is renovated or remodeled.
+
+
+zipcode
+Categorical
+It is a 5 digit zip code in which the house is located.
+
+
+lat
+Numerical
+Geographical Latitude position of the house.
+
+
+long
+Numerical
+Geographical longitude position of the house.
+
+
+sqft_living15
+Numerical
+It is the average house square footage of the 15 closest houses.
+
+
+sqft_lot15
+Numerical
+It is the average lot square footage of the 15 closest houses.

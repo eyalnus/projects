@@ -1,0 +1,17 @@
+Attribute Information: 
+	 0. classes: 				  edible=e, poisonous=p
+     1. cap-shape:                bell=b,conical=c,convex=x,flat=f,
+                                  knobbed=k,sunken=s
+     2. cap-surface:              fibrous=f,grooves=g,scaly=y,smooth=s
+     3. cap-color:                brown=n,buff=b,cinnamon=c,gray=g,green=r,
+                                  pink=p,purple=u,red=e,white=w,yellow=y
+     5. odor:                     numeric, continuous - measured odor level, units undefined
+     6. gill-attachment:          attached=a,descending=d,free=f,notched=n
+     7. gill-spacing:             close=-1,crowded=0,distant=1
+    10. stalk-shape:              enlarging=e,tapering=t
+    16. veil-type:                partial=p,universal=u
+    17. veil-color:               brown=n,orange=o,white=w,yellow=y
+    18. ring-number:              none=n,one=o,two=t
+    21. population:               numeric, continuous - measure of density of mushroom clusters
+	22. latitude:               numeric, continuous - latitude of sample
+	23. longitude:               numeric, continuous - longitude of sample

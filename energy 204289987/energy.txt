@@ -1,0 +1,17 @@
+A 10 year survey of heating costs for buildings in an undisclosed county, referencing their primary source of heating power (oil/gas/electricity) as the target class. Measurements are monthly.
+
+measure: index number of measurement
+year: continuous - the year the measurement was taken
+month: categorical, 1-12 (January-December) - the month the measurement was taken
+sector: categorical, factory/commercial/education/office/residential - the typical use of the building
+size: continuous - floor size in sq meters
+district: categorical, 1-8 - code of the district where building resides
+elevation: continuous - ground elevation in meters at building location
+floors: integer - number of floors in building
+built: continuous - year the building was built
+tmp_min: continuous - minimum monthly temperature
+tmp_mean: continuous - mean monthly temperature
+tmp_max: continuous - max monthly temperature
+cost: continuous - cost of heating for given month, undisclosed currency
+
+source: Target class - oil/gas/elec

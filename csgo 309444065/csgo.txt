@@ -1,0 +1,34 @@
+Counter-Strike: Global Offensive (CS:GO) is a multiplayer first-person shooter video game developed by Valve and Hidden Path Entertainment. It is the fourth game in the Counter-Strike series and was released for Windows, macOS, Xbox 360, and PlayStation 3 in August 2012, while the Linux version was released in 2014.
+
+The game pits two teams against each other: the Terrorists and the Counter-Terrorists. Both sides are tasked with eliminating the other while also completing separate objectives. The Terrorists, depending on the game mode, must either plant the bomb or defend the hostages, while the Counter-Terrorists must either prevent the bomb from being planted, defuse the bomb, or rescue the hostages. There are nine game modes, all of which have distinct characteristics specific to that mode. The game also has matchmaking support that allows players to play on dedicated Valve servers, as well as allowing members of the community to host their own servers with custom maps and game modes. A battle-royale game-mode, "Danger Zone", was introduced in December 2018.
+
+
+https://en.wikipedia.org/wiki/Counter-Strike:_Global_Offensive
+
+All games were 5v5, meaning 5 players on each team.
+A 't' prefix indicates the terrorist team features.
+A 'ct' prefix indicates the counter terrorist team features.
+
+General Features:
+time_left: continuous, time left until game ends
+map: categorical, game map played
+bomb_placed: boolean, True/False was the bombed placed by terrorist team
+ct_defuse_kits: number of defuse kits on CT team
+
+Per Team Features:
+score: continuous, current team score
+health: continuous, current team health (out of 500)
+armor: continuous, current team armor (out of 500)
+money: continuous, current team money
+helmets: integer, number of team members with helmets
+players_alive: integer, number of team members alive
+grenade_hegrenade: integer, number of team members with grenade_hegrenade
+grenade_flashbang: integer, number of team members with grenade_flashbang
+grenade_smokegrenade: integer, number of team members with grenade_smokegrenade
+grenade_incendiarygrenade: integer, number of team members with grenade_incendiarygrenade
+grenade_molotovgrenade: integer, number of team members with grenade_molotovgrenade
+grenade_decoygrenade: integer, number of team members with grenade_decoygrenade
+
+
+Target Class:
+round_winner: Counter Terrorists / Terrorists

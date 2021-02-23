@@ -1,0 +1,20 @@
+Customer grouping by shopping behavior and personal information in order to improve targetted marketing.
+
+ID: Customer ID (unique)
+Gender: Boolean, Male/Female
+
+Ever_Married: Boolean, Yes/No - was the customer married
+Age: continuous, customer age
+Graduated: Boolean, Yes/No - is the customer a high school graduate
+Profession: categorical - customer profession ['Healthcare' 'Engineer' 'Lawyer' 'Entertainment' 'Artist' 'Executive' 'Doctor' 'Homemaker' 'Marketing' nan]
+Work_Experience: integer - number of years of work experience
+Spending_Score: Categorical, Low/Average/High - spending habits
+Family_Size: integer - number of family members (household)
+Shop_Day: categorical, 1-7 (Sunday-Saturday) - day of week when most shopping occurs by customer
+Shop_Other: continuous - normalized measure of customer deviation from average store customer spending on non specified products
+Shop_Dairy: continuous - normalized measure of customer deviation from average store customer spending on dairy products
+Shop_Household: continuous - normalized measure of customer deviation from average store customer spending on household products
+Shop_Meat: continuous - normalized measure of customer deviation from average store customer spending on meat products
+
+Target Feature:
+Group: A,B,C,D

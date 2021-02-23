@@ -1,0 +1,13 @@
+Handler:		Barak Daniel
+
+ID:			204594329
+
+Link to video:		https://drive.google.com/file/d/12NDC7dGRZxP58vdlYkC_khE95vQti2HI/view?usp=sharing
+
+
+Attached in the zipped file:
+• The project's notebook
+• The original csv file
+• The fixed csv file I created
+• The decision tree png output
+• The requirements for the program

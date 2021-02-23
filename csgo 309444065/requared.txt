@@ -1,0 +1,15 @@
+בס"ד
+
+
+numpy
+matplotlib as mpl
+matplotlib.pyplot 
+seaborn 
+pandas 
+pydotplus
+sklearn
+GaussianNB from sklearn.naive_bayes 
+DecisionTreeClassifier from sklearn.tree
+train_test_split from sklearn.model_selection
+metrics from sklearn
+
